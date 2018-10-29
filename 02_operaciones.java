@@ -6,8 +6,8 @@ public class b_operaciones {
     public static void main(String[] args) {
         int i;
         System.out.println("Incremento");
-        //Pre-orden, Pos-orden : Pre-fija, Pos-fija
-        i = 18; System.out.println(" Pos-orden i = " + i + "; i++(" + i++ + "); i = " + i + ";");
+        //Pre-orden, Post-orden : Pre-fija, Post-fija
+        i = 18; System.out.println(" Post-orden i = " + i + "; i++(" + i++ + "); i = " + i + ";");
         i = 18; System.out.println(" Pre-orden i = " + i + "; ++i(" + ++i + "); i = " + i + ";");
         System.out.println("");
         
