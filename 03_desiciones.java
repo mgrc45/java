@@ -1,6 +1,5 @@
 package curso;
 
-
 public class c_desiciones {
     
     public static void main(String[] args) {
@@ -19,7 +18,7 @@ public class c_desiciones {
         System.out.println(" int b = (<condición>)?2:3;");
         System.out.println("");
         //El operador == solo funciona para datos primitivos
-        //Para comparar String's usa String.equals("algo")
+        //Para comparar objetos String usa String.equals("algo")
         System.out.println("Operadores relacionales");
         System.out.println(" (1 == 1) : " + (1 == 1));
         System.out.println(" (0 != 1) : " + (0 != 1));
