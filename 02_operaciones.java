@@ -1,6 +1,5 @@
 package curso;
 
-
 public class b_operaciones {
     
     public static void main(String[] args) {
