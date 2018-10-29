@@ -1,6 +1,5 @@
 package curso;
-// Java es un lenguaje "fuertemente tipado"
-// Java es un lenguaje "case sesitive"
+// Java es un lenguaje "fuertemente tipado" y "case sensitive"
 public class a_variables {
     public static String str1;
     public static int int1;
@@ -55,8 +54,8 @@ public class a_variables {
         String s1 = "Cat";
         String s2 = "Cat";
         String s3 = new String("Cat");
-        System.out.println("s1 == s2 : " + (s1 == s2)); //Es un dato primitivo por lo que ambos estan en Heap
-        System.out.println("s1 == s3 : " + (s1 == s3)); //Falso por que es una clase y esta en memoria Stack
+        System.out.println("s1 == s2 : " + (s1 == s2)); //Ambos son datos primitivos que estan en Stack
+        System.out.println("s1 == s3 : " + (s1 == s3)); //Falso: Uno es un dato primitivo (Stack) y el otro un objeto (Heap)
         
         int i1 = 10;
         int i2 = 10;
