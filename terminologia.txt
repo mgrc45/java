@@ -1,0 +1,75 @@
+Java EE define cuatro tipos de componentes:
+1. Applets: Aplicaciones GUI que se ejecutan en un navegador.
+2. Aplicaciones: Son programas que se ejecutan en un cliente
+3. Aplicaciones web: (servlets, páginas JSP y JSF) Se ejecutan en 
+un contenedor web y responden a las peticiones HTTP del cliente.
+4. Aplicaciones Empresariales: (EJB, JMS, JTA, etc.) Son ejecutadas 
+en un contenedor EJB.
+
+Algunos de los servicios que
+proporciona Java EE se describen a continuación:
+1. Java Transaction API (JTA): Este servicio ofrece una demarcación de
+transacciones API utilizada por el contenedor y la aplicación. También
+proporciona una interfaz entre el administrador de transacciones y el
+administrador de recursos en el nivel Service Provider Interface (SPI).
+2. Java Persistence API (JPA): API estándar para el mapeo de objeto-relacional
+(ORM). Con Java Persistence Query Language (JPQL), se puede consultar
+objetos almacenados en la base de datos subyacente.
+3. Validación: El Bean de validación proporciona un nivel de declaración de
+restricción de la clase y la facilidad de validación.
+4. Java Message Service (JMS): Permite que los componentes se comuniquen
+de forma asincrónica a través de mensajes.
+5. Java Naming and Directory Interface (JNDI): Esta API, incluida en Java SE,
+se utiliza para acceder a los sistemas de nombres y directorios. La aplicación
+se utiliza para asociar (enlazar) los nombres de los objetos y luego encontrar.
+------------------------------------------------------------------------------------
+JSF = Java Server Face
+------------------------------------------------------------------------------------
+Swing - Awt -> Java FX
+------------------------------------------------------------------------------------
+PLC - Product Life Cycle
+ 1.Analisis
+ 2.Diseño
+ 3.Desarrollo
+ 4.Pruebas
+ 5.Implementacion
+ 6.Mantenimiento
+ 7.Fin del ciclo de vida
+-------------------------------------------------------------------------------------
+ JRE - .jar - Corre
+ JVM - .class - ByteCode (Codigo de bits) - Implementacion de la maquina virtual
+ .java - Codigo fuente
+ .java -> .class -> .jar
+-------------------------------------------------------------------------------------
+Libreria base: Java.lang
+-------------------------------------------------------------------------------------
+POJO = Plain Old Java Object
+SCOPE = Ambito de la variable: Instancia 
+-------------------------------------------------------------------------------------
+Clase
+Objeto = Intancia de clase
+Tipos de datos abstractos = Clases
+Constructor: El primer metodo de la clase
+Sobrecarga de operadores: Cuando se usa una clase con 
+mas de un grupo de entrada de variables.
+-------------------------------------------------------------------------------------
+Expresiones: Sintaxis de las instrucciones.
+Propagar : Como en el caso de Switch al no usar brake se propaga la comparación.
+Ambito de la variable: En donde vive si es local no se puede usar en otro metodo
+-------------------------------------------------------------------------------------
+KISS = Keep It Simple and Stupid = Mantenlo Simple y Estupido
+-------------------------------------------------------------------------------------
+Patron de diseño: Marker interface
+-------------------------------------------------------------------------------------
+Serializar es preparar un tipo para transmitirla en otro medio.
+-------------------------------------------------------------------------------------
+Collection, Set, Interface
+-------------------------------------------------------------------------------------
+Polimosfismo = Una referencia puede tener diferentes implementaciones.
+-------------------------------------------------------------------------------------
+Las excepciones : o Se cachan o se lanzan. Y algunas no se necesitan cachar por que se pueden arreglar 
+en el codigo o en su defecto "si la memoria se acaba" pues no se cacha por que no se puede hacer nada.
+-------------------------------------------------------------------------------------
+Interfaces funcionales tienen una sola funcion
+-------------------------------------------------------------------------------------
+Patron MVC - Estilo arquitectonico - Modelo Vista Controlador

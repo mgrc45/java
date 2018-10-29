@@ -1,0 +1,21 @@
+psvm
+ public static void main(String[] args)
+
+sout
+ System.out.println("");
+
+fori
+         for (int j = 0; j < args.length; j++) {
+            String arg = args[j];
+            
+        }
+
+fore
+         for (String arg : args) {
+            
+        }
+forc
+        for (Iterator iterator = col.iterator(); iterator.hasNext();) {
+            Object next = iterator.next();
+            
+        }
