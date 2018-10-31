@@ -10,7 +10,7 @@ import java.util.Date; //Depreciado
 
 public class j_fechas {
     public static void main(String[] args) {
-                Date d = new Date();
+         Date d = new Date();
          System.out.println(d);
          //Default time iso = 8601 (YYYY-MM-DD)
          LocalDate myDate = LocalDate.now();
