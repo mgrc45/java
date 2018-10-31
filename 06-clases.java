@@ -20,9 +20,7 @@ Class: Alumno
 //Una clase posee un constructor por default por lo que podemos usar new sin crear explicitamente un constructor
 //La clase que llama a la otra es llamada : caller
 //La clase que trabaja para otras es llamada : worker
-//scope??? Ambito - Local o global
-
-
+//scope: ambito - Local o global
 public class f_clases {
     private int boleta;
     private String nombre;
