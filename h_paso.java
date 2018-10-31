@@ -1,13 +1,13 @@
 /*
- * Paso por referencia en otros lenguajes quizas si se puedan pasar los valores por valores
+*  Paso por referencia en otros lenguajes quizas si se puedan pasar los valores por valores
 *  Pero en java los valores son pasados por referencia, es decir que cuando se asigna un valor lo que se esta asignando
 *  en realidad es una posicion de memoria. Esto aplica para objetos 
 
 Paso por referencia de objeto
 
- * Algunas variables son inmutables, es decir que si se cambian se altera la referencia.  <----Ojo
- * Es decir que no cambia, si hago un cambio sobre la cadena entonces estoy generando una nueva.
- */
+* Algunas variables son inmutables, es decir que si se cambian se altera la referencia.  <----Ojo
+* Es decir que no cambia, si hago un cambio sobre la cadena entonces estoy generando una nueva.
+*/
 
 //No existe el paso por referencia en Java: Se llama "paso por referencia de objeto"
 //Se llama "paso por valor" por que aqui siempre enviamos una referencia : Pass by Value
@@ -25,12 +25,12 @@ public class h_paso {
        //Cuando pasamos objetos es por referencia
        Shirt myShirt = new Shirt();
        myShirt.colorCode = 'R';
-        porReferencia2(myShirt);
-        System.out.println("Shirt color: " + myShirt.colorCode);
+       porReferencia2(myShirt);
+       System.out.println("Shirt color: " + myShirt.colorCode);
     }
     
     public static void porValores() {
-         //Creamos valores primitivos
+        //Creamos valores primitivos
         char myShirtC=' ';
         char yourShirtC=' ';
         
