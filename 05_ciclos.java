@@ -6,7 +6,7 @@ public class e_ciclos {
         String[] column2 = {"1","2","3"};
         System.out.println("- Enhaced for loop -");
         System.out.println(" for(variable:array) {  }");
-	for (String str: column2) 
+        for (String str: column2) 
           System.out.println(" " + str.toString());
         
         System.out.println(" for(inicializacion; condicion; incremento) {  }");
