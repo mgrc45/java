@@ -2,10 +2,9 @@ package curso;
 /*
 Modificadores de acceso
  - private : Solo es accesible a metodos de la misma clase
+ + public : Se puede acceder desde cualquier parte de la solución
  # protected
- + public : Se puede acceder desde cualquier parte de la solucion
  N package o default
-Si no se escribe el modificador de acceso se considera :...
 Overloading Constructors : Encadenamiento de constructores es cuando se vuelven a llamar
 */
 public class g_modificadores {
