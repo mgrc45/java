@@ -1,7 +1,7 @@
 /*
  * Operadores de corto circuito: AND y OR
  * && || Si es doble: es menos extricto evalua almenos una de las dos condiciones (para optimizar)
- * &    | Si es simple: es mas extricto evalua ambas condiciones (aun que no sea necesario)
+ * &   | Si es simple: es mas extricto evalua ambas condiciones (aun que no sea necesario)
 
  * Uso de "equals"
  * Cuando son de tipo primitivo se comparan los valores
@@ -49,20 +49,20 @@ public class i_condiciones {
 
     private static void equals() {
         String name1 = new String("Fred Smith");
-         String name2 = new String("Fred Smith");
-         //Entre 2 objetos lo que se compara es la referencia
-         System.out.print("name1 == name2 : ");
-         if (name1 == name2) System.out.println("Verdadero"); else  System.out.println("Falso");  
-         //Para comparar valores entre dos objetos se usa el metodo "equals"
-         System.out.print("name1.equals(name2) : ");
-          if (name1.equals(name2)) System.out.println("Verdadero"); else  System.out.println("Falso");  
-         String nm1 = "Fred Smith";
-         String nm2 = "Fred Smith";
-         //Entre 2 tipos primitivos se comparan los valores y en el caso de Strings se aplica de forma implicita "equals"
-         System.out.print("nm1 == nm2 : ");
-          if (nm1 == nm2) System.out.println("Verdadero"); else  System.out.println("Falso"); 
-          
-          //Fuente : D83527GC10_sg2.pdf - 51 - Testing Equality Between String Variables
+        String name2 = new String("Fred Smith");
+        //Entre 2 objetos lo que se compara es la referencia
+        System.out.print("name1 == name2 : ");
+        if (name1 == name2) System.out.println("Verdadero"); else  System.out.println("Falso");  
+        //Para comparar valores entre dos objetos se usa el metodo "equals"
+        System.out.print("name1.equals(name2) : ");
+        if (name1.equals(name2)) System.out.println("Verdadero"); else  System.out.println("Falso");  
+        String nm1 = "Fred Smith";
+        String nm2 = "Fred Smith";
+        //Entre 2 tipos primitivos se comparan los valores y en el caso de Strings se aplica de forma implicita "equals"
+        System.out.print("nm1 == nm2 : ");
+        if (nm1 == nm2) System.out.println("Verdadero"); else  System.out.println("Falso"); 
+        
+        //Fuente : D83527GC10_sg2.pdf - 51 - Testing Equality Between String Variables
     }
     
 }
